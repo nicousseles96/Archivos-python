@@ -52,6 +52,9 @@ BotonMAS = Button(raiz,text="+",bg=color_boton,width=ancho_boton,height=alto_bot
 pat = Entry(raiz, font=("arial",20,"bold"), width=16,borderwidth=10, bg="light coral",state="disabled",textvariable=text_pat)
 pat.place(x=20,y=5)
 
+######################################
+ sudo dd if=/DISCO_MASTER  of=/DISCO_FINAL bs=64K conv=noerror,sync
+
 
 
 
